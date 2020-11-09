@@ -4,23 +4,38 @@
 }
 
 .menu {
-    position: absolute;
     width: 889px;
     height: 525px;
     border: 15px solid #d0d0d0;
     font-family: "Parisine";
+    top: 0;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.casePropriete {
+    width: 177px;
+    height: 175px;
+    position: absolute;
+}
+
+.lignePropriete {
+    position: absolute;
+    left: 0;
+}
+
+.icone {
+    z-index: 1;
+    position: absolute;
 }
 
 .ligne1 {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 531px;
     height: 175px;
 }
-
 .case1 {
-    position: absolute;
     top: 0;
     left: 0;
     width: 354px;
@@ -29,81 +44,49 @@
 }
 
 .case2 {
-    position: absolute;
-    top: 0;
     left: 354px;
-    width: 177px;
-    height: 175px;
     background-color: #ff9e00
 }
 
 .ligne2 {
-    position: absolute;
     top: 175px;
-    left: 0;
     width: 531px;
     height: 175px;
 }
 
 .case3 {
-    position: absolute;
-    top: 0;
     left: 0;
-    width: 177px;
-    height: 175px;
     background-color: #1e8bc4;
 }
 
 .case4 {
-    position: absolute;
-    top: 0;
     left: 177px;
-    width: 177px;
-    height: 175px;
     background-color: #f15a49;
 }
 
 .case5 {
-    position: absolute;
-    top: 0;
     left: 354px;
-    width: 177px;
-    height: 175px;
     background-color: #35bc7a;
 }
 
 .ligne3 {
-    position: absolute;
     top: 350px;
-    left: 0;
     width: 531px;
     height: 175px;
 }
 
 .case6 {
-    position: absolute;
-    top: 0;
     left: 0;
-    width: 177px;
-    height: 175px;
     background-color: #f86925;
 }
 
 .case7 {
-    position: absolute;
-    top: 0;
     left: 177px;
-    width: 177px;
-    height: 175px;
     background-color: #1e8bc4;
 }
 
 .case8 {
-    position: absolute;
-    top: 0;
     left: 354px;
-    width: 177px;
-    height: 175px;
     background-color: #f86925;
 }
 
@@ -127,7 +110,6 @@ br {
 }
 
 .case1 .text {
-    position: absolute;
     top: 72px;
     color: white;
     font-size: 10px;
@@ -151,7 +133,6 @@ br {
 
 .case1 .case #case1 {
     display: block;
-    position: absolute;
     left: 23px;
     top: 120px;
     width: 82px;
@@ -168,7 +149,6 @@ br {
 
 .case1 .case #case2 {
     display: block;
-    position: absolute;
     left: 115px;
     top: 120px;
     width: 82px;
@@ -188,107 +168,113 @@ br {
 }
 
 .case2 i{
-    position: absolute;
     top: 30%;
     left: 35%;
     font-size: 40px;
 }
 
 .case2 p {
-    position: absolute;
     top: 50%;
     left: 35%;
     font-size: 12px;
 }
 
 .case3 i{
-    position: absolute;
     top: 30%;
     left: 35%;
     font-size: 40px;
 }
 
 .case3 p {
-    position: absolute;
     top: 50%;
     left: 25%;
     font-size: 12px;
 }
 
 .case4 i{
-    position: absolute;
     top: 30%;
     left: 35%;
     font-size: 40px;
 }
 
 .case4 p {
-    position: absolute;
     top: 50%;
     left: 25%;
     font-size: 12px;
 }
 
 .case5 i{
-    position: absolute;
     top: 30%;
     left: 35%;
     font-size: 40px;
 }
 
 .case5 p {
-    position: absolute;
     top: 50%;
     left: 36.5%;
     font-size: 12px;
 }
 
 .case6 i{
-    position: absolute;
     top: 30%;
     left: 35%;
     font-size: 40px;
 }
 
 .case6 p {
-    position: absolute;
     top: 50%;
     left: 23%;
     font-size: 12px;
 }
 
 .case7 i{
-    position: absolute;
     top: 30%;
     left: 35%;
     font-size: 40px;
 }
 
 .case7 p {
-    position: absolute;
     top: 50%;
     left: 30%;
     font-size: 12px;
 }
 
 .case8 i{
-    position: absolute;
     top: 30%;
     left: 35%;
     font-size: 40px;
 }
 
 .case8 p {
-    position: absolute;
     top: 50%;
     left: 31%;
     font-size: 12px;
 }
 
-img {
-    position: absolute;
+.imageDroite img {
     top: 0;
     left: 531px;
     width: 359px;
     height: 525px;
+}
+
+.imageDroite .flecheGauche {
+    top: 255px;
+    left: 538px;
+    font-size: 30px;
+    color: white;
+}
+
+.imageDroite .flecheDroite {
+    top: 255px;
+    left: 865px;
+    font-size: 30px;
+    color: white;
+}
+
+.imageDroite .point {
+    top: 1px;
+    right: 10px;
+    font-size: 30px;
+    color: white;
 }
