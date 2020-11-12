@@ -1,280 +1,83 @@
-@font-face {
-    font-family: "Parisine";
-    src: url("Parisine.otf") format("opentype");
+* {
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
 }
-
+.caseProp {
+    display: inline-block;
+    width: 20.1%;
+    height: 100%;
+}
 .menu {
-    width: 889px;
-    height: 525px;
-    border: 15px solid #d0d0d0;
-    font-family: "Parisine";
-    top: 0;
+    position: relative;
+    width: 800px;
+    height: 500px;
+    border: 10px darkgrey solid;
 }
-
-.absolute {
-    position: absolute;
+.ligne {
+    display: block;
+    width: 100%;
+    height: 33.33%;
 }
-
-.casePropriete {
-    width: 177px;
-    height: 175px;
-    position: absolute;
-}
-
-.lignePropriete {
-    position: absolute;
-    left: 0;
-}
-
-.icone {
-    z-index: 1;
-    position: absolute;
-}
-
-.ligne1 {
-    width: 531px;
-    height: 175px;
+.margeNega {
+    margin-right: -4px;
+    text-align: center;
 }
 .case1 {
-    top: 0;
-    left: 0;
-    width: 354px;
-    height: 175px;
-    background-color: #35bc7a;
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    background-color: darkseagreen;
+    margin-right: -4px;
 }
-
+.case1 .case li{
+    display: inline-block;
+    width: 80px;
+    height: 20px;
+    border: 2px solid white;
+    margin: 2% 8px;
+    text-align: center;
+}
+.case1 .titre {
+    font-size: 20px;
+    margin: 20px;
+}
+.case1 .text {
+    margin-left: 20px;
+}
 .case2 {
-    left: 354px;
-    background-color: #ff9e00
+    background-color: #ff9e00;
+    vertical-align: top;
 }
-
-.ligne2 {
-    top: 175px;
-    width: 531px;
-    height: 175px;
-}
-
 .case3 {
-    left: 0;
     background-color: #1e8bc4;
 }
-
 .case4 {
-    left: 177px;
     background-color: #f15a49;
 }
-
 .case5 {
-    left: 354px;
     background-color: #35bc7a;
 }
-
-.ligne3 {
-    top: 350px;
-    width: 531px;
-    height: 175px;
-}
-
 .case6 {
-    left: 0;
     background-color: #f86925;
 }
-
 .case7 {
-    left: 177px;
     background-color: #1e8bc4;
 }
-
 .case8 {
-    left: 354px;
     background-color: #f86925;
 }
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-br {
-    content: "";
-    display: block;
-    margin-top: 9px;
-}
-
-.case1 .titre {
-    color: white;
-    margin-top: 40px;
-    margin-left: 23px;
-    font-size: 20px;
-    text-transform: uppercase;
-}
-
-.case1 .text {
-    top: 72px;
-    color: white;
-    font-size: 10px;
-    margin-left: 22px;
-}
-
-.case1 .case {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-align: center;
-    vertical-align: center;
-
-}
-
-.case1 .case li {
-    display: inline;
-    padding: 0;
-    margin-right: 90px;
-}
-
-.case1 .case #case1 {
-    display: block;
-    left: 23px;
-    top: 120px;
-    width: 82px;
-    height: 32px;
-    border: solid white 2px;
-}
-
-.case1 .case #case1 span {
-    position: relative;
-    top: 17%;
-    color: white;
-    font-size: 10px;
-}
-
-.case1 .case #case2 {
-    display: block;
-    left: 115px;
-    top: 120px;
-    width: 82px;
-    height: 32px;
-    border: solid white 2px;
-}
-
-.case1 .case #case2 span {
-    position: relative;
-    top: 17%;
-    color: white;
-    font-size: 10px;
-}
-
-.case2{
-    color: white;
-}
-
-.case2 i{
-    top: 30%;
-    left: 35%;
+.textIcone {
+    padding-top: 30%;
     font-size: 40px;
 }
-
-.case2 p {
-    top: 50%;
-    left: 35%;
-    font-size: 12px;
-}
-
-.case3 i{
-    top: 30%;
-    left: 35%;
-    font-size: 40px;
-}
-
-.case3 p {
-    top: 50%;
-    left: 25%;
-    font-size: 12px;
-}
-
-.case4 i{
-    top: 30%;
-    left: 35%;
-    font-size: 40px;
-}
-
-.case4 p {
-    top: 50%;
-    left: 25%;
-    font-size: 12px;
-}
-
-.case5 i{
-    top: 30%;
-    left: 35%;
-    font-size: 40px;
-}
-
-.case5 p {
-    top: 50%;
-    left: 36.5%;
-    font-size: 12px;
-}
-
-.case6 i{
-    top: 30%;
-    left: 35%;
-    font-size: 40px;
-}
-
-.case6 p {
-    top: 50%;
-    left: 23%;
-    font-size: 12px;
-}
-
-.case7 i{
-    top: 30%;
-    left: 35%;
-    font-size: 40px;
-}
-
-.case7 p {
-    top: 50%;
-    left: 30%;
-    font-size: 12px;
-}
-
-.case8 i{
-    top: 30%;
-    left: 35%;
-    font-size: 40px;
-}
-
-.case8 p {
-    top: 50%;
-    left: 31%;
-    font-size: 12px;
-}
-
-.imageDroite img {
+img {
+    position: absolute;
     top: 0;
-    left: 531px;
-    width: 359px;
-    height: 525px;
+    right: 0;
+    width: 40%;
+    height: 100%;
 }
-
-.imageDroite .flecheGauche {
-    top: 255px;
-    left: 538px;
-    font-size: 30px;
-    color: white;
-}
-
-.imageDroite .flecheDroite {
-    top: 255px;
-    left: 865px;
-    font-size: 30px;
-    color: white;
-}
-
-.imageDroite .point {
-    top: 1px;
-    right: 10px;
-    font-size: 30px;
-    color: white;
+.textIcone p{
+    font-size: 12px;
 }
