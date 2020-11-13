@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    width: 100vh;
+    width: 100vw;
     padding: 0;
     margin: 0;
 }
@@ -103,9 +103,9 @@ img {
         width: 100%;
     }
     .menu {
-        border: 0;
         width: 100vw;
         height: 100vh;
+        border: 0;
     }
 }
 
