@@ -3,29 +3,40 @@
     color: white;
     text-decoration: none;
 }
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
 .caseProp {
     display: inline-block;
-    width: 20.1%;
+    width: 33.33%;
     height: 100%;
 }
 .menu {
     position: relative;
-    width: 800px;
-    height: 500px;
+    width: 100vw;
+    height: 100vh;
     border: 10px darkgrey solid;
 }
 .ligne {
     display: block;
-    width: 100%;
+    width: 60%;
     height: 33.33%;
 }
 .margeNega {
-    margin-right: -4px;
+    margin-right: -3px;
     text-align: center;
 }
 .case1 {
     display: inline-block;
-    width: 40%;
+    width: 67%;
     height: 100%;
     background-color: darkseagreen;
     margin-right: -4px;
@@ -80,4 +91,22 @@ img {
 }
 .textIcone p{
     font-size: 12px;
+}
+
+@media screen and (max-width: 600px){
+    .menu {
+        border: 0;
+    }
+    img {
+        visibility: hidden;
+    }
+    .ligne {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .case1 .case li{
+       visibility: hidden;
+    }
 }
